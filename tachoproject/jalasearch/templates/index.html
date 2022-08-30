@@ -1,0 +1,53 @@
+<html>
+    <Head>      
+        <style>  
+        body {
+            height: 100%;
+            background-image: url("https://images.pexels.com/photos/1450082/pexels-photo-1450082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .searchbox {  
+        float: left;  
+        }  
+        input[type=text] {  
+        padding: 6px;  
+        margin-top: 8px;  
+        font-size: 17px;  
+        border: none;  
+        }  
+        .searchbox button {  
+          
+        padding: 8px;  
+        margin-top: 10px;  
+        margin-left: 10px;  
+        background: rgb(3, 67, 83);  
+        font-size: 20px;  
+        border-width: 1px; 
+        border-color: rgba(2, 2, 63, 0.89);
+        cursor: pointer;
+        border-radius: 5px;
+        color: rgba(2, 2, 63, 0.89)  
+        }  
+        .searchbox button:hover {  
+        background: rgba(2, 2, 63, 0.89); 
+        color: white; 
+        }  
+        </style>  
+    </Head>  
+    <Body>   
+        Hello guys! This is an application :)
+        <p> Let's go team! </p>
+        <p> Today is {{today}} </p>
+        <div class="searchbox">  
+            <form>   
+                <input type="text" placeholder=" Search...." name="search">   
+                <button type="submit">Submit</button>   
+            </form>  
+        </div>   
+    </Body>  
+</html>  
